@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 5px;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 0px 10px cyan;
+    font-size: 40px;
+}
+
+h3{
+    color: white;
+    text-shadow: 2px 0px 10px rgb(48, 254, 206);
+    font-size: 20px;
+}
+
+canvas{
+    box-shadow: 2px 0px 50px cyan;
+    animation-name: cor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes cor{
+    from{box-shadow: 2px 0px 50px cyan;} 
+    to{box-shadow: 2px 0px 100px rgb(48, 254, 161);}
+}
